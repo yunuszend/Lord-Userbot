@@ -296,16 +296,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n\n"
+        f" **┗┓ZendYNS USERBOT┏┛** \n\n"
         f"♛ **Lord:** \n"
         f" `{DEFAULTUSER}` \n"
         f"♛ **Username:** \n"
         f" `@{user.username}` \n\n"
-        f"__Lord-Userbot Adalah Userbot Khusus__ "
+        f"__ZendYNS-Userbot Adalah Userbot Khusus__ "
         f"__Yang Digunakan Untuk Bersenang-Senang__ "
         f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
         f"__Jumlah Modul Dalam Lord Userbot__ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n")
+        f"❃ **Repo Userbot:** [ZendYNS-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Owner:** [Yunus](t.me/ZendYNS)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
