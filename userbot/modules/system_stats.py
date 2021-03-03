@@ -297,9 +297,9 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f" **🔥✘SADBOY USERBOT✘🔥** \n\n"
-        f"🕊✿**Sadboy🔥:** \n"
+        f"🕊**Sadboy🔥:** \n"
         f" `{DEFAULTUSER}` \n"
-        f"🕊✿**Username🔥:** \n"
+        f"🕊**Username🔥:** \n"
         f" `@{user.username}` \n\n"
         f"__Sadboy-Userbot Adalah Userbot Khusus__ "
         f"__Yang Digunakan Untuk Para sadboy-sadboy__ "
