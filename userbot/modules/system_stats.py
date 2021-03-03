@@ -296,18 +296,35 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"✘⩵►『SADBOY-USERBOT』◄⩵✘\n running on 🤖 {UPSTREAM_REPO_BRANCH} 🤖\n"
-        f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
-        f"┣[•👤 USER     :{DEFAULTUSER}\n"
-        f"┣[ 👁‍🗨 Username :@{user.username}\n"
-        "┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
-        f"┣[•⚙️ Telethon :v {version.__version__} 🕊\n"
-        f"┣[•🐍 Python   :v {python_version()} 🕊\n"
-        f"┣[•💻 Base on  :{UPSTREAM_REPO_BRANCH}🕊\n"
-        f"┣[•🛠 Version  :{BOT_VER} 🕊\n"
-        f"┣[•🗃 Modules  :{len(modules)} Loaded🕊\n"
-        f"┣[•🕒 Uptime   :{uptime} 🕊\n"
-        f"🕊 **Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n🕊 **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n🕊 **Owner:** [Yunus](t.me/ZendYNS)\n")
+                 await msg.delete()
+        except BaseException:
+            await alive.edit(
+                output + "\n\n *`The provided logo is invalid."
+                "\nMake sure the link is directed to the logo picture`"
+            )
+            await asyncio.sleep(100)
+            await alive.delete()
+    else:
+        await alive.edit(output)
+        await asyncio.sleep(100)
+        await alive.delete()
+
+
+@register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
+async def amireallyalive(alive):
+    user = await bot.get_me()
+    await get_readable_time((time.time() - StartTime))
+    output = (
+        f" **╚▣彡✘Sadboy▣╩▣USERBOT✘彡▣╝** \n\n"
+        f"🕊 **Sadboy:** \n"
+        f" `{DEFAULTUSER}` \n"
+        f"🐇 **Username:** \n"
+        f" `@{user.username}` \n\n"
+        f"__Sadboy-Userbot Adalah Userbot Khusus__ "
+        f"__Yang Digunakan Khusus buat para sadboy__ "
+        f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
+        f"__Jumlah Modul Dalam Sadboy Userbot__ `{len(modules)}` \n\n"
+        f"🕊 **Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n🐇 **Grup Userbot: **[Klik tolol](t.me/LordUserbot_Group)\n🕊 **Create by:** [Yunus](t.me/ZendYNS)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
