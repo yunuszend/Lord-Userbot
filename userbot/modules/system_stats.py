@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:alive Sadboy|Jomblo)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:alive sadboy|Jomblo)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -269,7 +269,7 @@ async def amireallyalive(alive):
         f"🕊 **🗿Python**   \n   ➥ `Versi {python_version()}` \n"
         f"🐇 **📜Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"🕊 **📚Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"🐇 **🛠Repo Userbot:** [Sadboy-Userbot](https://github.com/Zora24/LORD-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Yunus](t.me/ZendYNS)\n"
+        f"🐇 **🛠Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Yunus](t.me/ZendYNS)\n"
         f"**✘▬▬▬▬▬❙۩🐇۩❙▬▬▬▬▬✘**")
     if ALIVE_LOGO:
         try:
@@ -299,13 +299,17 @@ async def amireallyalive(alive):
         f" **✘SADBOY USERBOT✘** \n\n"
         f"🕊**Sadboy:** \n"
         f" `{DEFAULTUSER}` \n"
-        f"🐇**Username:** \n"
+        f"🕊**Username:** \n"
         f" `@{user.username}` \n\n"
-        f"__Sadboy-Userbot Adalah Userbot Khusus__ "
-        f"__Yang Digunakan Untuk Para sadboy-sadboy__ "
-        f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
-        f"__Jumlah Modul Dalam Lord Userbot__ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Sadboy-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Owner:** [Yunus](t.me/ZendYNS)\n")
+        f"**━━━━━━━━━━━━━━━━━━━━**\n"
+        f"┣[•⚙️ Telethon :v {version.__version__} 🕊\n"
+        f"┣[•🐍 Python   :v {python_version()} 🕊\n"
+        f"┣[•💻 Base on  :{UPSTREAM_REPO_BRANCH}🕊\n"
+        f"┣[•🛠 Version  :{BOT_VER} 🕊\n"
+        f"┣[•🗃 Modules  :{len(modules)} Loaded🕊\n"
+        f"┣[•🕒 Uptime   :{uptime} 🕊\n"
+        f"**━━━━━━━━━━━━━━━━━━━━**\n"
+        f"🕊 **Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n🕊 **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n🕊 **Owner:** [Yunus](t.me/ZendYNS)\n")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
