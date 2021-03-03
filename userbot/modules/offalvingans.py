@@ -22,10 +22,10 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 AFKSTR = [
-    f"**Maaf {ALIVE_NAME} Sedang OFF!**",
+    f"**Maaf {ALIVE_NAME} Sedang MERATAPI NASIB!**",
     f"**Maaf {ALIVE_NAME} Sedang OFF\n Tunggu Sampai Online!**",
     f"**{ALIVE_NAME} Sedang OFF\n Tunggulah Sampai Online**",
-    f"**Maaf {ALIVE_NAME} Sedang OFF!**",
+    f"**Maaf {ALIVE_NAME} Sedang MERATAPI NASIB!**",
 ]
 
 
@@ -69,7 +69,7 @@ async def set_afk(afk_e):
     else:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【⚒OFF⚒】"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**Lord Telah OFF!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**Sadboy Telah OFF!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -88,7 +88,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("【⚒OFF⚒】"):
+    if last and last.endswith("【🏹SAD:(】"):
         last1 = last[:-12]
     else:
         last1 = ""
