@@ -296,19 +296,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✘SADBOY USERBOT✘** \n\n"
-        f"🕊**Sadboy:** \n"
-        f" `{DEFAULTUSER}` \n"
-        f"🕊**Username:** \n"
-        f" `@{user.username}` \n\n"
-        f"**━━━━━━━━━━━━━━━━━━━━**\n"
+        f"✘⩵►『SADBOY-USERBOT』◄⩵✘\n running on 🤖 {UPSTREAM_REPO_BRANCH} 🤖\n"
+        f"╭━━━━━━━━━━━━━━━━━━━━━╮\n"
+        f"┣[•👤 USER     :{DEFAULTUSER}\n"
+        f"┣[ 👁‍🗨 Username :@{user.username}\n"
+        "┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
         f"┣[•⚙️ Telethon :v {version.__version__} 🕊\n"
         f"┣[•🐍 Python   :v {python_version()} 🕊\n"
         f"┣[•💻 Base on  :{UPSTREAM_REPO_BRANCH}🕊\n"
         f"┣[•🛠 Version  :{BOT_VER} 🕊\n"
         f"┣[•🗃 Modules  :{len(modules)} Loaded🕊\n"
         f"┣[•🕒 Uptime   :{uptime} 🕊\n"
-        f"**━━━━━━━━━━━━━━━━━━━━**\n"
         f"🕊 **Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n🕊 **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n🕊 **Owner:** [Yunus](t.me/ZendYNS)\n")
     if ALIVE_LOGO:
         try:
