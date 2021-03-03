@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**Sadboy-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -315,7 +315,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **╚▣彡✘SADBOY USERBOT✘彡▣╝** \n\n"
+        f" **彡✘SADBOY USERBOT✘彡** \n\n"
         f"🕊 **Sadboy:** \n"
         f" `{DEFAULTUSER}` \n"
         f"🐇 **Username:** \n"
