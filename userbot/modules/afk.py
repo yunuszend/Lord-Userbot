@@ -27,7 +27,7 @@ AFKSTR = [
     f"**Maaf kang sadboy {ALIVE_NAME} Sedang OFF!**",
     f"**Maaf kang sadboy {ALIVE_NAME} Sedang OFF\n Tunggu Sampai master Kembali Online!**",
     f"**Kang sadboy {ALIVE_NAME} Sedang OFF\n Tunggulah Sampai Online**",
-    f"**Maaf kang sadboy {ALIVE_NAME} Sedang OFF!**",
+    f"**Maaf kang sadboy {ALIVE_NAME} Sedang OFF!!**",
 ]
 
 
