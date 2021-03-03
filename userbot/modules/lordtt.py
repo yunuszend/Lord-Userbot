@@ -18,9 +18,9 @@ async def _(event):
         return
     d_link = event.pattern_match.group(1)
     if ".com" not in d_link:
-        await event.edit("`Mohon Maaf Lord, Saya Membutuhkan Link Video Tiktok Untuk Download Video Tiktok` **(._.)**")
+        await event.edit("`Mana Bisa Tolol,Saya Membutuhkan Link Video Tiktok Untuk Download Video Tiktok Yah Tolol` **(._.)**")
     else:
-        await event.edit("```Video Sedang Diproses.....```")
+        await event.edit("```Video Sedang Diproses .....```")
     chat = "@ttsavebot"
     async with bot.conversation(chat) as conv:
         try:
@@ -32,7 +32,7 @@ async def _(event):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await event.edit("**Kesalahan:** `Lord Mohon Buka Blokir` @ttsavebot `Dan Coba Lagi!`")
+            await event.edit("**Kesalahan:** `Kang Sadboy Mohon Buka Blokir` @ttsavebot `Dan Coba Lagi!`")
             return
         await bot.send_file(event.chat_id, video)
         await event.client.delete_messages(conv.chat_id,
