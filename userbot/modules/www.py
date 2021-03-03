@@ -47,9 +47,9 @@ async def pingme(pong):
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**💢PING 💢**")
-    await pong.edit("**💢✫ PING 💢✫**")
+    await pong.edit("**💢✫ Dasar Sadboy 💢✫**")
     await pong.edit("**💢✫💢 PING 💢✫💢**")
-    await pong.edit("**💢✫💢✫ PING 💢✫💢✫**")
+    await pong.edit("**💢✫💢✫ huh Sadboy 💢✫💢✫**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**🏹》 PING💢** "
