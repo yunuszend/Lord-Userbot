@@ -226,16 +226,16 @@ async def amireallyalive(alive):
         f" **┗彡♡SADBOY USERBOT♡彡┛** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**🕊 Sadboy🤖** \n"
+        f"**🕊 Sadboy** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**🕊 Username🤖** \n"
+        f"**🕊 Username** \n"
         f" ➥ `@{user.username}` \n"
-        f"◐━─━─━─━─━──━─━─━─━◐\n"
+        f"◐━─━─━─━─━──━─━─━─━\n"
         f"┣[🤖`Telethon :`Ver {version.__version__} \n"
         f"┣[👻 `Python   :`Ver {python_version()} \n"
         f"┣[💎 `Bot Ver  :`{BOT_VER} \n"
         f"┣[📚 `Modules  :`{len(modules)} \n"
-        f"◐━─━─━─━─━──━─━─━─━◐")
+        f"◐━─━─━─━─━──━─━─━─━")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -261,16 +261,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**꧁⛄▬▬▬▬▬❙۩🤖۩❙▬▬▬▬▬⛄꧂**\n"
+        f"**✘▬▬▬▬▬❙۩🕊۩❙▬▬▬▬▬✘**\n"
         f"     **┗彡SADBOY USERBOT彡┛** \n\n"
-        f"🐇 **⛄Sadboy**     \n   ➥ `{DEFAULTUSER}` \n"
-        f"🕊 **⛇Username** \n   ➥ `@{user.username}` \n"
-        f"🐇 **⛄Telethon** \n   ➥ `Versi {version.__version__}` \n"
-        f"🕊 **⛇Python**   \n   ➥ `Versi {python_version()}` \n"
-        f"🐇 **⛄Versi Bot**\n   ➥ `{BOT_VER}` \n"
+        f"🐇 **👤Sadboy**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"🕊 **💭Username** \n   ➥ `@{user.username}` \n"
+        f"🐇 **📌Telethon** \n   ➥ `Versi {version.__version__}` \n"
+        f"🕊 **🗿Python**   \n   ➥ `Versi {python_version()}` \n"
+        f"🐇 **📜Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"🕊 **📚Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"🐇 **🛠Repo Userbot:** [Sadboy-Userbot](https://github.com/Zora24/LORD-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Yunus](t.me/ZendYNS)\n"
-        f"**꧁🔥▬▬▬▬▬❙۩👻۩❙▬▬▬▬▬🔥꧂**")
+        f"🐇 **🛠Repo Userbot:** [Sadboy-Userbot](https://github.com/Zora24/LORD-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Yunus](t.me/ZendYNS)\n"
+        f"**✘▬▬▬▬▬❙۩🐇۩❙▬▬▬▬▬✘**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -296,14 +296,14 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **🔥✘SADBOY USERBOT✘🔥** \n\n"
-        f"🕊**Sadboy🔥:** \n"
+        f" **✘SADBOY USERBOT✘** \n\n"
+        f"🕊**Sadboy:** \n"
         f" `{DEFAULTUSER}` \n"
-        f"🕊**Username🔥:** \n"
+        f"🐇**Username:** \n"
         f" `@{user.username}` \n\n"
         f"__Sadboy-Userbot Adalah Userbot Khusus__ "
         f"__Yang Digunakan Untuk Para sadboy-sadboy__ "
-        f"__Di Telegram__ __Versi Bot🤖 Yang Digunakan__ `{BOT_VER}` "
+        f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
         f"__Jumlah Modul Dalam Lord Userbot__ `{len(modules)}` \n\n"
         f"❃ **Repo Userbot:** [Sadboy-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Klik Gbllk](t.me/LordUserbot_Group)\n❃ **Owner:** [Yunus](t.me/ZendYNS)\n")
     if ALIVE_LOGO:
