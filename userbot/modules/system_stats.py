@@ -315,13 +315,13 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **╚▣彡✘Sadboy▣╩▣USERBOT✘彡▣╝** \n\n"
+        f" **╚▣彡✘SADBOY USERBOT✘彡▣╝** \n\n"
         f"🕊 **Sadboy:** \n"
         f" `{DEFAULTUSER}` \n"
         f"🐇 **Username:** \n"
         f" `@{user.username}` \n\n"
         f"__Sadboy-Userbot Adalah Userbot Khusus__ "
-        f"__Yang Digunakan Khusus buat para sadboy__ "
+        f"__Yang Digunakan buat para sadboy YG Ada__ "
         f"__Di Telegram__ __Versi Bot Yang Digunakan__ `{BOT_VER}` "
         f"__Jumlah Modul Dalam Sadboy Userbot__ `{len(modules)}` \n\n"
         f"🕊 **Repo Userbot:** [Sadboy-Userbot](https://github.com/yunuszenduserbot/Lord-Userbot)\n🐇 **Grup Userbot: **[Klik tolol](t.me/LordUserbot_Group)\n🕊 **Create by:** [Yunus](t.me/ZendYNS)\n")
